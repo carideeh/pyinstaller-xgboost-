@@ -5,13 +5,12 @@ import sys
 sys.setrecursionlimit(1000000)
 added_files=[
 	("C:\\Users\\Anaconda3\\Lib\\site-packages\\xgboost\\*.dll*","xgboost"),
-	("C:\\Users\\Anaconda3\\Lib\\site-packages\\distributed\\*.yaml*","distributed"),
 	("C:\\xgboost\\*.dll*","xgboost"),
 ]
 
 
 a = Analysis(['aaa.py'],
-             pathex=['######­n¥´¥]ªºpyÀÉ¦ì¸m'],
+             pathex=['######è¦æ‰“åŒ…çš„PYæª”ä½ç½®'],
              binaries=[],
              datas=[],
              hiddenimports=['cython','xgboost','sklearn.utils._cython_blas','sklearn','sklearn.ensemble','sklearn.neighbors.typedefs','sklearn.neighbors.quad_tree','sklearn.tree._utils','scipy._lib.messagestream','sklearn.linear_model','sklearn.metrics','sklearn.model_selection'],
