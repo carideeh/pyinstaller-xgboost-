@@ -36,7 +36,8 @@ a = Analysis......
       
       
 step5: pyinstaller -F .\aaa.spec  
-等打包  
+自己打的就 pyinstaller -F .\自己的py檔名稱.spec    
+等打包    
   
   
 打包還是有問題:  
